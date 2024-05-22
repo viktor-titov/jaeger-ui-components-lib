@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowJs": true,
+    "jsx": "react"
+  },
+  "exclude": ["dist", "node_modules"],
+  "extends": "@grafana/tsconfig",
+  "include": [
+    "src/**/*.ts*",
+    "typings",
+    "public_types/jquery/*.ts",
+    "public_types/*.d.ts",
+  ]
+}
