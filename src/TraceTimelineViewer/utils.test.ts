@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import { TraceSpan } from 'src/types/trace';
+import { TraceSpan } from '../types/trace';
 
 import traceGenerator from '../demo/trace-generators';
 

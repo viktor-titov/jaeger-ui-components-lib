@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import Chance from 'chance';
-import { TraceSpanData, TraceProcess } from 'src/types/trace';
+import { TraceSpanData, TraceProcess } from '../types/trace';
 
 import { getSpanId } from '../selectors/span';
 
