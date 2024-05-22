@@ -1,10 +1,12 @@
 {
-  "name": "@viktor-titov/jaeger-ui-components",
-  "version": "9.4.0-pre",
+  "name": "@viktor-titov/jaeger-ui-components-lib",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/viktor-titov"
+  },
+  "version": "0.0.0",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "license": "Apache-2.0",
-  "private": true,
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
